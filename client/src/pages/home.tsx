@@ -167,7 +167,7 @@ export default function Home() {
     const derived = SvgCallAction.calculateDerivedDimensions(a, b);
     
     // Update g value based on f, b and material thickness
-    derived.g = SvgCallAction.calculateGValue(
+    const g = SvgCallAction.calculateGValue(
       derived.f,
       dimensions.b,
       dimensions.materialThickness
@@ -176,7 +176,8 @@ export default function Home() {
     // Update dimensions with derived values
     setDimensions(prev => ({
       ...prev,
-      ...derived
+      ...derived,
+      g
     }));
   }, []);
   

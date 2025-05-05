@@ -105,20 +105,39 @@ export default function BoxViewer({
     // Update A dimension text
     updatedSvg = updatedSvg.replace(
       /<text class="markerParent\s+A \([^)]*\)"[^>]*>A \([^<]*\)<\/text>/,
-      `<text class="markerParent A (${dimensions.a})" x="67.75" y="182.25" size="12" fill="#ffffff" text="${dimensions.a}" style=";display: block;">A (${dimensions.a})  </text>`
+      `<text class="markerParent A (${dimensions.a})" x="67.75" y="182.25" size="12" fill="#000000" text="${dimensions.a}" style=";display: block;">A (${dimensions.a})  </text>`
     );
     
     // Update B dimension text
     updatedSvg = updatedSvg.replace(
       /<text class="markerParent\s+B \([^)]*\)"[^>]*>B \([^<]*\)<\/text>/,
-      `<text class="markerParent B (${dimensions.b})" x="152.75" y="182.25" size="12" fill="#ffffff" text="${dimensions.b}" style=";display: block;">B (${dimensions.b})  </text>`
+      `<text class="markerParent B (${dimensions.b})" x="152.75" y="182.25" size="12" fill="#000000" text="${dimensions.b}" style=";display: block;">B (${dimensions.b})  </text>`
     );
     
     // Update H dimension text
     updatedSvg = updatedSvg.replace(
       /<text class="markerParent HorizantolText H \([^)]*\)"[^>]*>H \([^<]*\)<\/text>/,
-      `<text class="markerParent HorizantolText H (${dimensions.h})" x="335.75" y="172.25" size="12" fill="#ffffff" text="${dimensions.h}" style=";display: block;">H (${dimensions.h})  </text>`
+      `<text class="markerParent HorizantolText H (${dimensions.h})" x="335.75" y="172.25" size="12" fill="#000000" text="${dimensions.h}" style=";display: block;">H (${dimensions.h})  </text>`
     );
+    
+    // Change white text to black for better visibility
+    updatedSvg = updatedSvg.replace(/fill="#ffffff"/g, 'fill="#000000"');
+    
+    // Change display:none to display:block for all markers to make them visible
+    updatedSvg = updatedSvg.replace(/style=";display: none;"/g, 'style=";display: block;"');
+    
+    // Make marker lines visible
+    updatedSvg = updatedSvg.replace(/<line([^>]*) style="display: none;"([^>]*)>/g, '<line$1 style="display: block;"$2>');
+    
+    // Make stroke colors more visible
+    updatedSvg = updatedSvg.replace(/stroke="#00ff00"/g, 'stroke="#008800"');
+    updatedSvg = updatedSvg.replace(/stroke="#ff0000"/g, 'stroke="#ff0000"');
+    
+    // Add stroke-width to make lines more visible
+    updatedSvg = updatedSvg.replace(/<line/g, '<line stroke-width="1.5"');
+    
+    // Add stroke-linecap for better line endings
+    updatedSvg = updatedSvg.replace(/<line/g, '<line stroke-linecap="round"');
     
     return updatedSvg;
   };
@@ -147,7 +166,7 @@ export default function BoxViewer({
           )}
         </div>
       </div>
-      <CardContent className="p-0 flex-grow relative bg-neutral-900" style={{ minHeight: '65vh' }}>
+      <CardContent className="p-0 flex-grow relative bg-neutral-100" style={{ minHeight: '65vh' }}>
         {isLoading ? (
           <div className="absolute inset-0 flex items-center justify-center bg-neutral-100 bg-opacity-80">
             <div className="h-8 w-8 animate-spin rounded-full border-4 border-primary border-t-transparent"></div>
@@ -155,7 +174,7 @@ export default function BoxViewer({
         ) : (
           <div 
             ref={svgContainerRef}
-            className="absolute inset-0 overflow-hidden cursor-move"
+            className="absolute inset-0 overflow-hidden cursor-move flex items-center justify-center"
             onMouseDown={handleMouseDown}
             onMouseMove={handleMouseMove}
             onMouseUp={handleMouseUp}
@@ -166,16 +185,23 @@ export default function BoxViewer({
                 transform: `translate(${transform.translateX}px, ${transform.translateY}px) scale(${transform.scale})`,
                 transformOrigin: 'center',
                 transition: 'transform 0.1s ease-out',
-                width: '100%',
-                height: '100%'
+                width: '90%',
+                height: '90%',
+                maxWidth: '800px',
+                maxHeight: '800px',
+                border: '1px dashed #ccc',
+                padding: '20px',
+                backgroundColor: '#f8f8f8'
               }}
+              className="flex items-center justify-center"
             >
               <svg 
                 width="100%" 
                 height="100%" 
-                viewBox="0 0 800 600" 
+                viewBox="10 20 380 360" 
                 xmlns="http://www.w3.org/2000/svg"
-                style={{ background: "transparent" }}
+                style={{ backgroundColor: "#fff", boxShadow: "0 2px 10px rgba(0,0,0,0.1)" }}
+                preserveAspectRatio="xMidYMid meet"
                 dangerouslySetInnerHTML={{ __html: finalSvgString }}
               />
             </div>
