@@ -79,7 +79,7 @@ export default function BoxControlForm({
       
       // Recalculate G value with material thickness
       newDimensions.g = SvgCallAction.calculateGValue(
-        newDimensions.f, 
+        derived.f, 
         newDimensions.b, 
         newDimensions.materialThickness
       );
