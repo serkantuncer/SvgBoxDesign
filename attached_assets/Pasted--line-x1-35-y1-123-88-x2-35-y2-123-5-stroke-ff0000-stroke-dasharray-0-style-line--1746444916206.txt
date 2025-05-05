@@ -1,0 +1,117 @@
+<line x1="35" y1="123.88" x2="35" y2="123.5" stroke="#ff0000" stroke-dasharray="0" style=""/>
+<line x1="35" y1="123.5" x2="155" y2="123.5" stroke="#00ff00" stroke-dasharray="0" style=""/>
+<line x1="35" y1="123.5" x2="35" y2="45" stroke="#ff0000" stroke-dasharray="0" style=""/>
+<g class="cmp03" title="cmp03 kompanent">
+    <line x1="35" y1="45" x2="35" y2="44.25" stroke="#ff0000" style=""/>
+    <line x1="35" y1="44.25" x2="35.38" y2="44.25" stroke="#ff0000" style=""/>
+    <path class="arcnew" rp1="0" rp2="-8.14285714285714" rp3="7.125" rp4="-14.25" rp5="9.16071428571428" rp6="-14.25" x1="35.38" y1="44.25" x2="44.5397234380332" y2="30" r1="14.25" r2="14.25" r3="0" r4="0" rotate="1" d=" M 35.38 44.25  A   14.25  14.25  0  0  1 44.5397234380332 30 " stroke="#ff0000" fill="none"/>
+    <line x1="35.38" y1="44.25" x2="44" y2="44.25" stroke="#ff0000" style=""/>
+    <line x1="44" y1="44.25" x2="44" y2="45" stroke="#ff0000" style=""/>
+    <line x1="44" y1="45" x2="146" y2="45" stroke="#00ff00" style=""/>
+    <line x1="95" y1="30" x2="95" y2="45" stroke="#ffffff" style="display: none;" class=" marker F" marker-start="url(#arrow_start)" marker-end="url(#arrow_end)"/>
+    <text class="marker HorizantolText F" x="80" y="37.5" size="12" fill="#ffffff" text="15" style=";display: none;">F  </text>
+    <line x1="44" y1="45" x2="44" y2="46.5" stroke="#ff0000" style=""/>
+    <line x1="155" y1="45" x2="155" y2="44.25" stroke="#ff0000" style=""/>
+    <line x1="155" y1="44.25" x2="154.62" y2="44.25" stroke="#ff0000" style=""/>
+    <path class="arcnew" rp1="0" rp2="-8.14285714285714" rp3="-7.125" rp4="-14.25" rp5="-9.16071428571428" rp6="-14.25" x1="154.62" y1="44.25" x2="145.460276561967" y2="30" r1="14.25" r2="14.25" r3="0" r4="0" rotate="0" d=" M 154.62 44.25  A   14.25  14.25  0  0  0 145.460276561967 30 " stroke="#ff0000" fill="none"/>
+    <line x1="154.62" y1="44.25" x2="146" y2="44.25" stroke="#ff0000" style=""/>
+    <line x1="146" y1="44.25" x2="146" y2="45" stroke="#ff0000" style=""/>
+    <line x1="146" y1="45" x2="146" y2="46.5" stroke="#ff0000" style=""/>
+    <line x1="44.5397234380332" y1="30" x2="145.460276561967" y2="30" stroke="#ff0000" style=""/>
+</g>
+<line x1="155" y1="45" x2="155" y2="77.13" stroke="#ff0000" stroke-dasharray="0" style=""/>
+<line x1="155" y1="123.5" x2="155" y2="123.88" stroke="#ff0000" stroke-dasharray="0" style=""/>
+<g class="cmp02" title="cmp01 kompanent">
+    <line x1="235" y1="123.88" x2="234.62" y2="123.88" stroke="#ff0000" style=""/>
+    <line x1="234.62" y1="123.88" x2="234.62" y2="116.88" stroke="#ff0000" style=""/>
+    <line x1="231.12" y1="123.88" x2="231.12" y2="116.88" stroke="#ffffff" style="display: none;" class=" marker Z" marker-start="url(#arrow_start)" marker-end="url(#arrow_end)"/>
+    <text class="marker HorizantolText Z" x="236.12" y="120.38" size="12" fill="#ffffff" text="7" style=";display: none;">Z  </text>
+    <line x1="234.62" y1="116.88" x2="232.62" y2="114.88" stroke="#ff0000" style=""/>
+    <line x1="232.62" y1="114.88" x2="222.504917985725" y2="77.13" stroke="#ff0000" style=""/>
+    <line x1="234.62" y1="123.88" x2="155" y2="123.88" stroke="#00ff00" style=""/>
+    <line x1="155" y1="123.88" x2="155" y2="77.13" stroke="#ff0000" style=""/>
+    <line x1="195" y1="77.13" x2="195" y2="123.88" stroke="#ffffff" style="display: none;" class=" marker G" marker-start="url(#arrow_start)" marker-end="url(#arrow_end)"/>
+    <text class="marker HorizantolText G" x="180" y="100.505" size="12" fill="#ffffff" text="46,75" style=";display: none;">G  </text>
+    <line x1="222.504917985725" y1="77.13" x2="155" y2="77.13" stroke="#ff0000" style=""/>
+</g>
+<line x1="235" y1="123.88" x2="355" y2="123.88" stroke="#ff0000" stroke-dasharray="0" style=""/>
+<g class="cmp02" title="cmp01 kompanent">
+    <line x1="355" y1="123.88" x2="355.38" y2="123.88" stroke="#ff0000" style=""/>
+    <line x1="355.38" y1="123.88" x2="355.38" y2="116.88" stroke="#ff0000" style=""/>
+    <line x1="358.88" y1="123.88" x2="358.88" y2="116.88" stroke="#ffffff" style="display: none;" class=" marker Z" marker-start="url(#arrow_start)" marker-end="url(#arrow_end)"/>
+    <text class="marker HorizantolText Z" x="363.88" y="120.38" size="12" fill="#ffffff" text="7" style=";display: none;">Z  </text>
+    <line x1="355.38" y1="116.88" x2="357.38" y2="114.88" stroke="#ff0000" style=""/>
+    <line x1="357.38" y1="114.88" x2="367.495082014275" y2="77.13" stroke="#ff0000" style=""/>
+    <line x1="355.38" y1="123.88" x2="434.62" y2="123.88" stroke="#00ff00" style=""/>
+    <line x1="434.62" y1="123.88" x2="434.62" y2="77.13" stroke="#ff0000" style=""/>
+    <line x1="394.81" y1="77.13" x2="394.81" y2="123.88" stroke="#ffffff" style="display: none;" class=" marker G" marker-start="url(#arrow_start)" marker-end="url(#arrow_end)"/>
+    <text class="marker HorizantolText G" x="379.81" y="100.505" size="12" fill="#ffffff" text="46,75" style=";display: none;">G  </text>
+    <line x1="367.495082014275" y1="77.13" x2="434.62" y2="77.13" stroke="#ff0000" style=""/>
+</g>
+<g class="cmp04" title="cmp04 kompanent">
+    <line x1="35" y1="123.88" x2="35" y2="273.88" stroke="#00ff00" style=""/>
+    <line x1="35" y1="198.88" x2="20" y2="198.88" stroke="#ffffff" style="display: none;" class=" marker C" marker-start="url(#arrow_start)" marker-end="url(#arrow_end)"/>
+    <text class="marker  C" x="27.5" y="193.88" size="12" fill="#ffffff" text="15" style=";display: none;">C  </text>
+    <line x1="35" y1="123.88" x2="20" y2="127.899237886467" stroke="#ff0000" style=""/>
+    <line x1="35" y1="273.88" x2="20" y2="258.88" stroke="#ff0000" style=""/>
+    <line x1="20" y1="127.899237886467" x2="20" y2="258.88" stroke="#ff0000" style=""/>
+</g>
+<line x1="35" y1="198.88" x2="155" y2="198.88" stroke="#ffffff" style="display: block;" class=" markerParent A" marker-start="url(#arrow_start)" marker-end="url(#arrow_end)"/>
+<text class="markerParent  A (120)" x="80" y="193.88" size="12" fill="#ffffff" text="120" style=";display: block;">A (120)  </text>
+<line x1="35" y1="273.88" x2="35" y2="274.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+<g class="cmp18" title="cmp18 component">
+    <line x1="75" y1="274.26" x2="75" y2="326.26" stroke="#ffffff" style="display: none;" class=" marker BH" marker-start="url(#arrow_start)" marker-end="url(#arrow_end)"/>
+    <text class="marker HorizantolText BH" x="60" y="300.26" size="12" fill="#ffffff" text="52" style=";display: none;">BH  </text>
+    <line x1="35" y1="274.26" x2="39.5320986228782" y2="326.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="35" y1="274.26" x2="155" y2="274.26" stroke="#00ff00" stroke-dasharray="0" style=""/>
+    <line x1="155" y1="274.26" x2="147.928932188135" y2="281.331067811865" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="147.928932188135" y1="281.331067811865" x2="153" y2="286.402135623731" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="153" y1="286.402135623731" x2="153" y2="326.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="147.928932188135" y1="281.331067811865" x2="115" y2="314.26" stroke="#00ff00" stroke-dasharray="0" style=""/>
+    <line x1="115" y1="314.26" x2="95" y2="314.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="115" y1="314.26" x2="127" y2="326.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="127" y1="326.26" x2="153" y2="326.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="95" y1="314.26" x2="95" y2="318.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="95" y1="318.26" x2="87" y2="326.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="87" y1="326.26" x2="39.5320986228782" y2="326.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+</g>
+<line x1="155" y1="274.26" x2="155" y2="124.26" stroke="#00ff00" style=""/>
+<line x1="155" y1="199.26" x2="235" y2="199.26" stroke="#ffffff" style="display: block;" class=" markerParent B" marker-start="url(#arrow_start)" marker-end="url(#arrow_end)"/>
+<text class="markerParent  B (80)" x="180" y="194.26" size="12" fill="#ffffff" text="80" style=";display: block;">B (80)  </text>
+<g class="cmp19" title="cmp19 component">
+    <line x1="155" y1="274.26" x2="155.01" y2="274.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="155.01" y1="274.26" x2="173.6623063262" y2="314.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="155.01" y1="274.26" x2="234.99" y2="274.26" stroke="#00ff00" stroke-dasharray="0" style=""/>
+    <line x1="234.99" y1="274.26" x2="235" y2="274.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="234.99" y1="274.26" x2="194.99" y2="314.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="194.99" y1="314.26" x2="173.6623063262" y2="314.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+</g>
+<line x1="235" y1="274.26" x2="235" y2="124.26" stroke="#00ff00" style=""/>
+<g class="cmp18" title="cmp18 component">
+    <line x1="275" y1="274.26" x2="275" y2="326.26" stroke="#ffffff" style="display: none;" class=" marker BH" marker-start="url(#arrow_start)" marker-end="url(#arrow_end)"/>
+    <text class="marker HorizantolText BH" x="260" y="300.26" size="12" fill="#ffffff" text="52" style=";display: none;">BH  </text>
+    <line x1="235" y1="274.26" x2="239.532098622878" y2="326.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="235" y1="274.26" x2="355" y2="274.26" stroke="#00ff00" stroke-dasharray="0" style=""/>
+    <line x1="355" y1="274.26" x2="347.928932188135" y2="281.331067811865" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="347.928932188135" y1="281.331067811865" x2="353" y2="286.402135623731" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="353" y1="286.402135623731" x2="353" y2="326.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="347.928932188135" y1="281.331067811865" x2="315" y2="314.26" stroke="#00ff00" stroke-dasharray="0" style=""/>
+    <line x1="315" y1="314.26" x2="295" y2="314.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="315" y1="314.26" x2="327" y2="326.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="327" y1="326.26" x2="353" y2="326.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="295" y1="314.26" x2="295" y2="318.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="295" y1="318.26" x2="287" y2="326.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="287" y1="326.26" x2="239.532098622878" y2="326.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+</g>
+<line x1="355" y1="274.26" x2="355" y2="124.26" stroke="#00ff00" style=""/>
+<g class="cmp19" title="cmp19 component">
+    <line x1="355" y1="274.26" x2="355.01" y2="274.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="355.01" y1="274.26" x2="373.57370787115" y2="314.07" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="355.01" y1="274.26" x2="434.61" y2="274.26" stroke="#00ff00" stroke-dasharray="0" style=""/>
+    <line x1="434.61" y1="274.26" x2="434.62" y2="274.26" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="434.61" y1="274.26" x2="394.8" y2="314.07" stroke="#ff0000" stroke-dasharray="0" style=""/>
+    <line x1="394.8" y1="314.07" x2="373.57370787115" y2="314.07" stroke="#ff0000" stroke-dasharray="0" style=""/>
+</g>
+<line x1="434.62" y1="274.26" x2="434.62" y2="124.26" stroke="#ff0000" style=""/>
+<line x1="381.54" y1="274.26" x2="381.54" y2="124.26" stroke="#ffffff" style="display: block;" class=" markerParent H" marker-start="url(#arrow_start)" marker-end="url(#arrow_end)"/>
+<text class="markerParent HorizantolText H (150)" x="391.54" y="184.26" size="12" fill="#ffffff" text="150" style=";display: block;">H (150)  </text>

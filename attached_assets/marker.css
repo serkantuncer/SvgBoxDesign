@@ -1,0 +1,495 @@
+﻿
+.Baskutu {
+    width: 100%;
+    max-height: 480px;
+    overflow: auto;
+    border: 1px solid #808080;
+    background-color: #000000;
+}
+/* width */
+.scrollbar::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+.scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.scrollbar::-webkit-scrollbar-thumb {
+    background: #ff6600;
+}
+
+    /* Handle on hover */
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+.sol {
+    display: inline-block;
+}
+
+.divust2 {
+    margin-top: -6px;
+}
+
+.olcu {
+    font-size: 12px;
+}
+
+    .olcu div {
+        padding: 0;
+        /*margin: 2px 34px;*/
+    }
+
+        .olcu div.form-group label {
+            margin: 7px 10px 0px 0px;
+            text-align: center;
+            display: block;
+            font-weight: bold;
+            color: #0a0a0a;
+            font-size: 16px;
+        }
+
+        .olcu div.form-group {
+            margin: 4px 0px;
+            padding: 4px 0;
+            border-bottom: 1px solid #eae9e9;
+        }
+
+
+    .olcu input, select {
+        padding: 4px 7px !important;
+        font-size: 12px !important;
+    }
+
+#canvas {
+    background-color: white;
+}
+
+.pdfExport {
+    cursor: pointer;
+}
+
+svg text {
+    font-size: 11px;
+}
+
+.buttonlist {
+    list-style: none;
+}
+
+    .buttonlist li {
+        display: inline-block;
+        padding: 8px 4px;
+        background-color: #e8e8e8;
+        cursor: pointer;
+    }
+
+        .buttonlist li a {
+            color: #2a2a2a;
+        }
+
+            .buttonlist li a i {
+            }
+
+        .buttonlist li.active {
+            background-color: #ff6600;
+        }
+
+            .buttonlist li.active a {
+                color: #ffffff
+            }
+
+
+.alias {
+    cursor: alias;
+}
+
+.all-scroll {
+    cursor: all-scroll;
+}
+
+.auto {
+    cursor: auto;
+}
+
+.cell {
+    cursor: cell;
+}
+
+.context-menu {
+    cursor: context-menu;
+}
+
+.col-resize {
+    cursor: col-resize;
+}
+
+.copy {
+    cursor: copy;
+}
+
+.crosshair {
+    cursor: crosshair;
+}
+
+.default {
+    cursor: default;
+}
+
+.e-resize {
+    cursor: e-resize;
+}
+
+.ew-resize {
+    cursor: ew-resize;
+}
+
+.grab {
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+.grabbing {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+.help {
+    cursor: help;
+}
+
+.move {
+    cursor: move;
+}
+
+.n-resize {
+    cursor: n-resize;
+}
+
+.ne-resize {
+    cursor: ne-resize;
+}
+
+.nesw-resize {
+    cursor: nesw-resize;
+}
+
+.ns-resize {
+    cursor: ns-resize;
+}
+
+.nw-resize {
+    cursor: nw-resize;
+}
+
+.nwse-resize {
+    cursor: nwse-resize;
+}
+
+.no-drop {
+    cursor: no-drop;
+}
+
+.none {
+    cursor: none;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.progress {
+    cursor: progress;
+}
+
+.row-resize {
+    cursor: row-resize;
+}
+
+.s-resize {
+    cursor: s-resize;
+}
+
+.se-resize {
+    cursor: se-resize;
+}
+
+.sw-resize {
+    cursor: sw-resize;
+}
+
+.text {
+    cursor: text;
+}
+
+.url {
+    cursor: url(myBall.cur),auto;
+}
+
+.w-resize {
+    cursor: w-resize;
+}
+
+.wait {
+    cursor: wait;
+}
+
+.zoom-in {
+    cursor: zoom-in;
+}
+
+.zoom-out {
+    cursor: zoom-out;
+}
+
+.model-name {
+    position: absolute;
+    right: 0;
+    margin: 26px 25px 0 0;
+}
+
+.ecma-name {
+    color: black;
+}
+
+#dasbord {
+    /*background-image: url(/images/ESproject/filigram.png);*/
+    background-size: 30%;
+}
+
+.SelectBosluk {
+    width: 111px;
+}
+
+.olculerTable span {
+    display: block;
+}
+
+.olculerTable td {
+    padding: 6px 0 !important;
+}
+
+
+    .olculerTable td.large {
+        padding: 4px 0 !important;
+        min-width: 110px;
+    }
+
+
+    .olculerTable td.large2 {
+        padding: 4px 0 !important;
+        min-width: 200px;
+    }
+
+    .olculerTable td .btndetail {
+        width: 80px;
+        background-color: #f9f9f9;
+        padding: 10px 6px;
+    }
+
+    .olculerTable td button {
+        padding: 2px 7px !important;
+        font-size: 10px !important;
+        width: 48px;
+        height: 30px;
+        margin: 1px 0 0 0;
+    }
+
+        .olculerTable td button span {
+        }
+
+        .olculerTable td button i {
+            font-size: 20px;
+        }
+
+#dasbord svg {
+    min-width: 100%;
+}
+
+.HorizantolText {
+    text-orientation: mixed;
+    writing-mode: vertical-lr;
+}
+
+.gbody {
+}
+
+    .gbody rect {
+        cursor: pointer;
+        fill: rgba(0, 0, 0, 0.00)
+    }
+
+    .gbody.active rect {
+        fill: rgba(128, 76, 0, 0.34);
+        stroke: #343232;
+        stroke-dasharray: 20 20;
+    }
+
+    .gbody path {
+    }
+    .gbody rect {
+        position:relative;
+        z-index:3;
+    }
+
+    .gbody path, .gbody line {
+        cursor: crosshair;
+        position: relative;
+        z-index: 4;
+    }
+        .gbody path.active, .gbody line.active {
+            stroke: #663399;
+        }
+
+
+.EsModal.active {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(44, 44, 44, 0.39);
+    z-index: 999999;
+}
+
+    .EsModal.active .EsModalContent {
+        background-color: white;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        right: 5%;
+        bottom: 5%;
+        overflow: auto;
+        padding: 4px 4px;
+    }
+
+        .EsModal.active .EsModalContent .Baskutu {
+            max-height: 100%;
+        }
+
+.EsModal .EsModalContent .EsBtnClose {
+    display: none;
+}
+
+.EsModal.active .EsModalContent .EsBtnClose {
+    display: block;
+    position: fixed;
+    /* float: right; */
+    right: 5%;
+    top: 4%;
+    background-color: #ff6600;
+    padding: 6px 17px;
+    border-radius: 5px;
+    z-index: 99999999;
+    cursor:pointer;
+}
+.EsModal.active .EsModalContent .EsBtnClose i{
+   color:white;
+
+}
+.EsModal.active .EsEtiket {
+   display:none;
+}
+.rectParent {
+    stroke: #ffffff;
+    stroke-dasharray: 2 2;
+}
+
+.EkOzellik {
+}
+
+    .EkOzellik p {
+        margin: 0;
+    }
+
+    .EkOzellik span {
+        font-size: 12px;
+    }
+
+.DownloadButton {
+    position: absolute;
+    margin: -5% 0 0 1%;
+    padding: 5px 10px;
+    color: white;
+    background-color: #ff6600;
+    border: 1px solid #ff6600;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: all ease-in .3s;
+}
+
+    .DownloadButton:hover {
+        opacity: 1;
+        padding: 5px 30px;
+        /*font-size: 17px;*/
+    }
+
+    .DownloadButton span {
+        transition: all ease-in .10s;
+        /*display: none;*/
+    }
+
+    .DownloadButton:hover span {
+        display: inline-block !important;
+        transition: all ease-in .10s;
+    }
+
+    .DownloadButton.active {
+        margin: -80% 0 0 80%;
+        /*font-size: 17px;*/
+    }
+
+        .DownloadButton.active span {
+            display: inline-block;
+        }
+
+    .DownloadButton i {
+    }
+
+#svgform .Add {
+    background-color: #ff6600;
+    border: 1px solid #ff6600;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.labeldetail {
+    width: 100px;
+}
+
+.btnsubmit {
+    margin: 9px 0 !important;
+}
+
+.m-t-5 {
+    margin-top: 5px;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.m-t-15 {
+    margin-top: 15px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-t-30 {
+    margin-top: 30px;
+}
+
+.grupname {
+    height: 30px;
+}

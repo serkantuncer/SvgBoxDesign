@@ -1,0 +1,258 @@
+<div class="col-md-4 olcu">
+        
+
+<form action="/Home/CreatBox" id="svgform" method="post"><input id="ImagesID" name="ImagesID" type="hidden" value="284"><input id="ProductID" name="ProductID" type="hidden" value="17">    <h5>
+        Model Adı :
+        <span>Karton Kutular</span>
+
+    </h5>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item active">
+            <a class="nav-link in active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true" aria-expanded="true">Ana Ölçüler</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="HiddenOptions-tab" data-toggle="tab" href="#HiddenOptions" role="tab" aria-controls="HiddenOptions" aria-selected="false" aria-expanded="false">Ek Özellikler</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="opsiyoneltab-tab" data-toggle="tab" href="#opsiyoneltab" role="tab" aria-controls="opsiyoneltab" aria-selected="false" aria-expanded="false"> Gizli Ölçüler</a>
+        </li>
+
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade active in" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="form-group row hidden">
+                <div class="col-md-3">
+                    <label class="col-form-label"> Birim Hesabı</label>
+                </div>
+                <div class="col-md-9">
+                    <select class="form-control" name="birim" id="birim">
+                        <option>Seçiniz</option>
+                        <option value="cm">cm</option>
+                        <option value="mm">mm</option>
+                        <option value="px" selected="">pixel</option>
+                        <option value="in">inç</option>
+                    </select>
+                </div>
+            </div>
+
+                <div class="input-group">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>A:</b></a></div>
+                    <input type="number" step="0.01" id="a_cmd" name="a_cmd" data-class="A" value="100" class="form-control" data-min="" data-max="">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                </div>
+                <div class="input-group">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>B:</b></a></div>
+                    <input type="number" step="0.01" id="b_cmd" name="b_cmd" data-class="B" value="70" class="form-control " data-min="" data-max="">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                </div>
+                <div class="input-group">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>H:</b></a></div>
+                    <input type="number" step="0.01" id="h_cmd" name="h_cmd" data-class="H" value="150" class="form-control" data-min="" data-max="">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                </div>
+
+            <div class="input-group">
+                <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>Malzeme:</b></a></div>
+                <select class="form-control" id="malzeme" name="malzeme" data-font-size-slogan="50" data-font-size-url="50" data-y-slogan="40" data-y-url="61" data-r-slogan="10" data-r-url="120">
+
+                        <option value="1">Standart 1 mm</option>
+                        <option value="1,5">Standart 1.5 mm</option>
+                        <option value="2">Standart 2 mm</option>
+                </select>
+                <div class="input-group-btn">
+                    <a class="btndetail btn btn-default"><small>mm</small></a>
+                </div>
+            </div>
+            <div class="form-group text-center hidden">
+
+
+                <p>
+                    <input type="radio" step="0.01" checked="" value="0" class="io_cmd" name="io_cmd">
+                    <b>Ölçüleri dış ölçü olarak ayarla </b>
+                </p>
+                <p>
+                    <input type="radio" data-toggle="tooltip" data-placement="top" title="" step="0.01" value="1" class="io_cmd" name="io_cmd" data-original-title="A,B-H ölçülerine malzeme miktarı kadar ilave ölçü ekler"> <b>Ölçüleri iç ölçü olarak ayarla </b>
+                </p>
+            </div>
+            <!-- Tab ana ölçüler bitiş -->
+
+        </div>
+            <div class="tab-pane fade" id="HiddenOptions" role="tabpanel" aria-labelledby="home-tab">
+                <div class="input-group">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>Model Tipi:</b></a></div>
+                    <select class="form-control" id="ModelType" name="ModelType">
+                            <option value="1">
+                                Düz Tip
+                            </option>
+                            <option value="2" selected="">
+                                Oval Tip
+                            </option>
+
+
+                    </select>
+                    <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                </div>
+
+                <div class="form-group">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th colspan="100%" class="text-center">Ek Özellikler</th>
+                            </tr>
+                            <tr>
+                                <th class="text-center">Normal</th>
+                                <th class="text-center">Askılık</th>
+                                <th class="text-center">Dil</th>
+                                <th class="text-center">Parmak</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center">
+                                    <input type="radio" class="OtherRadio   NormalRadio active" data-value="Normal" name="OtherGrup" checked="checked">
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="OtherRadio AskiRadio" data-value="Aski" name="OtherGrup">
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="OtherRadio DilRadio" data-value="Dil" name="OtherGrup">
+                                </td>
+                                <td class="text-center">
+                                    <input type="radio" class="OtherRadio ParmakRadio" data-value="Parmak" name="OtherGrup">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="input-group OtherGroup Aski  hidden" style="visibility:hidden">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>Askılık Tipi:</b></a></div>
+                    <select class="form-control" id="AskilikType" name="AskilikType">
+                            <option value="1" hidden="">
+                                Askılık Yok
+                            </option>
+                            <option value="2">
+                                Yukarı Askılık
+                            </option>
+                            <option value="3">
+                                Aşağı Askılık
+                            </option>
+                            <option value="4">
+                                Çift Askılık
+                            </option>
+
+
+                    </select>
+                    <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                </div>
+                <div class="input-group OtherGroup Dil  hidden">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>Dil Tipi:</b></a></div>
+                    <select class="form-control" id="DilType" name="DilType">
+                            <option value="1" hidden="">
+                                Dil Yok
+                            </option>
+                            <option value="2">
+                                Yukarı Dilli
+                            </option>
+                            <option value="3">
+                                Aşağı Dilli
+                            </option>
+                            <option value="4">
+                                Çift Dilli
+                            </option>
+
+
+                    </select>
+                    <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                </div>
+
+                <div class="input-group OtherGroup Parmak  hidden">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>Parmak Tipi:</b></a></div>
+                    <select class="form-control" id="ParmakType" name="ParmakType">
+                            <option value="1" hidden="">
+                                Parmak Yok
+                            </option>
+                            <option value="2">
+                                Üst Parmak
+                            </option>
+                            <option value="3">
+                                Alt Parmak
+                            </option>
+                            <option value="4">
+                                Çift Parmak
+                            </option>
+
+
+                    </select>
+                    <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                </div>
+
+                <div class="Aski OtherGroup AskiHidden hidden">
+                    <div class="input-group">
+                        <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>M1:</b></a></div>
+                        <input type="number" step="0.01" id="m1_cmd" name="m1_cmd" data-class="M1" value="30" class="form-control">
+                        <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>M4:</b></a></div>
+                        <input type="number" step="0.01" id="m4_cmd" name="m4_cmd" data-class="M4" value="20" class="form-control">
+                        <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>M9:</b></a></div>
+                        <input type="number" step="0.01" id="m9_cmd" name="m9_cmd" data-class="M9" value="7" class="form-control">
+                        <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                    </div>
+                </div>
+
+                <div class="input-group OtherGroup Parmak ParmakContent hidden">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>R1:</b></a></div>
+                    <input type="number" step="0.01" id="r1_cmd" name="r1_cmd" data-class="R1" value="15.83" class="form-control">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                </div>
+                <div class="input-group OtherGroup Dil Dkontent hidden">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>D:</b></a></div>
+                    <input type="number" step="0.01" id="d_cmd" name="d_cmd" data-class="D" value="" class="form-control MaximumYuzde" data-min="15" data-max="50">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                </div>
+            </div>
+
+        <div class="tab-pane fade" id="opsiyoneltab" role="tabpanel" aria-labelledby="home-tab">
+                <div class="input-group">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>Z:</b></a></div>
+                    <input type="number" step="0.01" id="z_cmd" name="z_cmd" data-class="Z" value="7" class="form-control" data-min="" data-max="">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                </div>
+                <div class="input-group">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>F:</b></a></div>
+                    <input type="number" step="0.01" id="f_cmd" name="f_cmd" data-class="F" value="15" class="form-control" data-min="" data-max="">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                </div>
+                <div class="input-group">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>G:</b></a></div>
+                    <input type="number" step="0.01" id="g_cmd" name="g_cmd" data-class="G" value="46.94" class="form-control " data-min="" data-max="">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                </div>
+                <div class="input-group">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default labeldetail"><b>C:</b></a></div>
+                    <input type="number" step="0.01" id="c_cmd" name="c_cmd" data-class="C" value="15" class="form-control " data-min="" data-max="">
+                    <div class="input-group-btn"><a class="btndetail btn btn-default"><small>mm</small></a></div>
+                </div>
+        </div>
+    </div>
+<input id="RadioClass" name="RadioClass" type="hidden" value="">    <div class="form-group row">
+
+        <div class="col-md-12">
+            <button class="btn btn-sm btn-default  BtnHide pull-left active" type="button" data-id="1">
+                <i class="fa fa-eye"></i>  Ölçüleri Gizle
+            </button>
+            <button type="button" class="btn btn-success get-btn Add pull-right">
+                <i class="fa fa-calculator"></i>
+                Hesapla
+            </button>
+        </div>
+    </div>
+</form>
+
+
+    </div>
