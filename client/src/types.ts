@@ -23,6 +23,7 @@ export type FeatureType = 'Normal' | 'Aski' | 'Dil' | 'Parmak';
 export interface MaterialOption {
   label: string;
   value: number;
+  id?: string;
 }
 
 export interface TransformState {
