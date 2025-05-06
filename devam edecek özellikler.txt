@@ -1,0 +1,1 @@
+Parametreleri değiştirdiğimizde SVG'nin gerçek zamanlı güncellenmesi, ölçüleri gizle özelliği olmalı, farklı kutu modellerinin desteklenmesi
